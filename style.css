@@ -1,0 +1,54 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+    color: #333;
+}
+header.hero {
+    background: linear-gradient(to right, #0044cc, #cc0000);
+    color: white;
+    padding: 3em 1em;
+    text-align: center;
+}
+.cta-button {
+    display: inline-block;
+    margin-top: 1em;
+    padding: 0.7em 1.5em;
+    background-color: #ffffff;
+    color: #cc0000;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+section {
+    padding: 2em;
+}
+.services, .pricing, .faq {
+    background-color: #f9f9f9;
+}
+.service, .pack, .question {
+    margin-bottom: 1.5em;
+}
+.pack ul, .service ul {
+    list-style: none;
+    padding: 0;
+}
+.pack ul li::before, .service ul li::before {
+    content: "✔️ ";
+    margin-right: 5px;
+}
+.price {
+    font-weight: bold;
+    color: #0044cc;
+}
+footer {
+    background: #f0f0f0;
+    text-align: center;
+    padding: 1em;
+}
+iframe {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
